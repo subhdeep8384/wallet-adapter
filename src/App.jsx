@@ -46,7 +46,7 @@ function App() {
           <div className='h-screen flex  flex-col bg-slate-800 justify-center items-center gap-12'>
             <div className='gap-12  flex items-center justify-center'>
               <WalletMultiButton />
-              <WalletDisconnectButton />
+              <WalletDisconnectButton  />
             </div>
             { /* Your app's components go here, nested within the context providers. */}
             <div className='flex'>
