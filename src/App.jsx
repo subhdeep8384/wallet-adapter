@@ -40,7 +40,7 @@ function App() {
   );
 
   return (
-    <ConnectionProvider endpoint={endpoint}>
+    <ConnectionProvider endpoint={"https://solana-devnet.g.alchemy.com/v2/D4m8yi2HW1ScRF0bcP_mp"}>
       <WalletProvider wallets={wallets} autoConnect>
         <WalletModalProvider>
           <div className='h-screen flex  flex-col bg-slate-800 justify-center items-center gap-12'>
